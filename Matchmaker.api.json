@@ -2000,6 +2000,14 @@
     "AuthTokenAlreadyUsedToResetPassword": {
       "id": 1329,
       "name": "AuthTokenAlreadyUsedToResetPassword"
+    },
+    "MembershipNameTooLong": {
+      "id": 1330,
+      "name": "MembershipNameTooLong"
+    },
+    "MembershipNotFound": {
+      "id": 1331,
+      "name": "MembershipNotFound"
     }
   },
   "errorList": [
@@ -2321,6 +2329,8 @@
     "InvalidAuthToken",
     "AuthTokenDoesNotExist",
     "AuthTokenExpired",
-    "AuthTokenAlreadyUsedToResetPassword"
+    "AuthTokenAlreadyUsedToResetPassword",
+    "MembershipNameTooLong",
+    "MembershipNotFound"
   ]
 }
