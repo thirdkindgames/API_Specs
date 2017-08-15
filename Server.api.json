@@ -7404,13 +7404,6 @@
       ],
       "properties": [
         {
-          "name": "TitleId",
-          "description": "Unique identifier for the title, found in the Settings > Game Properties section of the PlayFab developer site when a title has been selected.",
-          "jsontype": "String",
-          "actualtype": "String",
-          "optional": false
-        },
-        {
           "name": "EmailTemplateId",
           "description": "The email template id of the account recovery email template to send.",
           "jsontype": "String",
@@ -9740,7 +9733,7 @@
       "auth": "SecretKey",
       "method": "POST",
       "request": "SendCustomAccountRecoveryEmailRequest",
-      "requestExample": "{\r\n  \"TitleId\": \"1000\",\r\n  \"EmailTemplateId\": \"D53A\",\r\n  \"Email\": \"Me@here.com\"\r\n}",
+      "requestExample": "{\r\n  \"EmailTemplateId\": \"D53AB15D8F12E330\",\r\n  \"Email\": \"Me@here.com\"\r\n}",
       "result": "SendCustomAccountRecoveryEmailResult",
       "resultExample": "",
       "AllInclusiveFlags": [
@@ -9748,7 +9741,6 @@
       ],
       "errors": [
         "InvalidParams",
-        "InvalidTitleId",
         "EmailTemplateMissing",
         "NoContactEmailAddressFound",
         "EmailClientTimeout",

@@ -5866,13 +5866,6 @@
           "jsontype": "String",
           "actualtype": "String",
           "optional": false
-        },
-        {
-          "name": "PasswordConfirm",
-          "description": "The confirmation of the new password for the player.",
-          "jsontype": "String",
-          "actualtype": "String",
-          "optional": false
         }
       ]
     },
@@ -8473,7 +8466,7 @@
       "auth": "SecretKey",
       "method": "POST",
       "request": "ResetPasswordRequest",
-      "requestExample": "{\r\n  \"TitleId\": \"ABC2233B\",\r\n  \"Token\": \"2B584FA1DF645E4\",\r\n  \"Password\": \"Password12345F00B@r\",\r\n  \"PasswordConfirm\": \"Password12345F00B@r\"\r\n}",
+      "requestExample": "{\r\n  \"TitleId\": \"ABC2233B\",\r\n  \"Token\": \"2B584FA1DF645E4\",\r\n  \"Password\": \"Password12345F00B@r\"\r\n}",
       "result": "ResetPasswordResult",
       "resultExample": "",
       "AllInclusiveFlags": [
